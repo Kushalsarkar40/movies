@@ -18,8 +18,8 @@ API_HASH = environ.get('API_HASH', '98976ac13930b8c10f1b5a69a75de579')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7829756948:AAHhOvIuxcLwLM9eURfJkegGXN1f7Rf2MxM')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5558799839').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Atanu18") # ADMIN USERNAME
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5854798620').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002404484500'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK','https://t.me/moviebotstudio')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002441724733').split()]
@@ -44,7 +44,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link 
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/kushalsark")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "62a3127093744aa0c4a64a1976457ae908812b70")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'gplinks.com')
@@ -68,7 +68,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://graph.org/file/4a02c3f5ce4b7ca749945-671839c9c75be5e64f.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/3a93e2e4211b0a4f3b621-fb9278dcab92b04012.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/9895f1f6b466df80279dd-ce6d911f07a4adda0c.jpg')).split()
